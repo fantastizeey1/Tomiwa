@@ -4,12 +4,9 @@ import Meteorsdemo from "./Meteorsdemo";
 
 const TTPs = () => {
   return (
-    <section className="w-full min-h-screen">
+    <section className="w-full min-h-screen flex justify-center items-center">
       <h3>TACTICS, TECHNIQUES AND PROCEDURES(TTPs)</h3>
-      <p>
-        APT 1 utilized a range of sophisticated tactics and techniques to
-        infiltrate and exploit target networks.
-      </p>
+
       <Meteorsdemo />
     </section>
   );
