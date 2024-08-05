@@ -8,6 +8,44 @@ export const NAV_LINKS = [
   { href: "/", key: "Contact_Us", label: "Contact Us" },
 ];
 
+export const cdmapti1 = [
+  {
+    id: 1,
+    title: "Enhanced Email Security",
+    content:
+      "Enhanced Email Security: Deploying advanced email filtering solutions to detect and block spear-phishing attempts.",
+    reference: "",
+  },
+  {
+    id: 2,
+    title: "Network Segmentation",
+    content:
+      "Network Segmentation: Implementing network segmentation to limit lateral movement and contain breaches.",
+    reference: "",
+  },
+  {
+    id: 3,
+    title: "Endpoint Detection and Response (EDR)",
+    content:
+      "Endpoint Detection and Response (EDR): Utilizing EDR solutions to monitor and respond to suspicious activities on endpoints.",
+    reference: "",
+  },
+  {
+    id: 4,
+    title: "Regular Security Audits",
+    content:
+      "Regular Security Audits: Conducting regular security audits and penetration testing to identify and address vulnerabilities.",
+    reference: "",
+  },
+  {
+    id: 5,
+    title: "Employee Training",
+    content:
+      "Employee Training: Providing training and awareness programs to educate employees about phishing tactics and cybersecurity best practices.",
+    reference: "",
+  },
+];
+
 export const points = [
   {
     id: 1,

@@ -54,8 +54,8 @@ export const TracingBeam = ({
       <div className="absolute -left-4 md:-left-48 top-3">
         <motion.div
           transition={{
-            duration: 0.2,
-            delay: 0.5,
+            duration: 0.6,
+            delay: 0.2,
           }}
           animate={{
             boxShadow:
@@ -67,8 +67,8 @@ export const TracingBeam = ({
         >
           <motion.div
             transition={{
-              duration: 0.2,
-              delay: 0.5,
+              duration: 0.6,
+              delay: 0.2,
             }}
             animate={{
               backgroundColor:
