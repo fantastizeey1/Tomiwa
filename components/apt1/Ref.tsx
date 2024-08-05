@@ -2,7 +2,7 @@ import React from "react";
 
 const Ref = () => {
   return (
-    <div className="mt-10 z-20 h-[70vh]  py-10 mx-4 px-36 relative">
+    <div className="mt-10 z-20 min-h-[100vh]  py-10 mx-4 px-36 relative">
       <h3 className="text-center text-[40px] mb-6">REFERENCES</h3>
       <ul className="   list-disc cursor-pointer pl-4">
         <li>
