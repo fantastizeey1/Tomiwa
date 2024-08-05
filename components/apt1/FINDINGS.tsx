@@ -47,7 +47,7 @@ const FINDINGS = () => {
         <h4 className="text-start text-[30px] w-full mb-10 ">
           Mandiant Report (2013)
         </h4>
-        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7">
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 font-light text-[13px]">
           In 2013, Mandiant released a landmark report titled "APT1: Exposing
           One of China&apos;s Cyber Espionage Units," which detailed the
           group&apos;s extensive cyber espionage activities. The report
@@ -78,16 +78,17 @@ const FINDINGS = () => {
         <h4 className="text-start text-[30px] w-full mb-10 ">
           Other Reports and Analysis
         </h4>
-        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 text-[12px font-thin]">
-          Cyware provides an overview of APT 1, highlighting its methods,
-          targets, and implications for global cybersecurity.
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 text-[13px] font-light">
+          <span className="font-bold text-[20px]">Cyware </span>provides an
+          overview of APT 1, highlighting its methods, targets, and implications
+          for global cybersecurity.
           <a href="#cite2" className="text-purple-300">
             <sup>2</sup>
           </a>
           <br className="mb-5" />
-          SecurityWeek discusses the anatomy of APTs, providing insights into
-          how groups like APT 1 operate and sustain long-term access to
-          compromised networks.
+          <span className="font-bold text-[20px]">SecurityWeek </span>discusses
+          the anatomy of APTs, providing insights into how groups like APT 1
+          operate and sustain long-term access to compromised networks.
           <a href="#cite6" className="text-purple-300">
             <sup>6</sup>
           </a>
