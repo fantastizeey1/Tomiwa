@@ -21,7 +21,7 @@ const Info = () => {
           Chinese government. Identified as one of the most prolific Advanced
           Persistent Threat (APT) groups, APT 1 has been active since at least
           2006 and is thought to be operating from China, primarily targeting
-          sectors critical to China's economic and national interests.
+          sectors critical to China&apos;s economic and national interests.
           <a href="#cite1" className="text-purple-300">
             <sup>1</sup>
           </a>
