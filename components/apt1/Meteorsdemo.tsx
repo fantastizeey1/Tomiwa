@@ -12,7 +12,7 @@ const Meteorsdemo = () => {
             <h4 className="font-bold text-xl text-white mb-4 relative z-50">
               {point.title}
             </h4>
-            <p className="font-normal text-base text-white/70 mb-4 relative z-50">
+            <p className="font-normal text-base text-white mb-4 relative z-50">
               {point.description}
               <a
                 href={`#cite${point.reference.id}`}

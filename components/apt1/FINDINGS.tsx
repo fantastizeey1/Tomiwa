@@ -42,41 +42,63 @@ const FINDINGS = () => {
       <h3 className="text-center text-gradient text-[30px] w-full mb-10 ">
         KEY FINDINGS AND PUBLIC REPORT
       </h3>
-      <div className="flex gap-20 flex-wrap justify-center relative items-start">
-        {data.map((item) => (
-          <div key={item.id} className="w-full flex relative max-w-xs mb-4">
-            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-            <div className="relative shadow-xl bg-purple-900 border border-purple-300 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
-              <h4 className="font-bold text-xl text-white mb-4 relative z-50">
-                {item.title}
-              </h4>
-              <p className="font-normal text-base text-white/70 mb-4 relative z-50">
-                {item.description}
-                {item.references ? (
-                  <span>
-                    {item.references.map((ref) => (
-                      <a
-                        key={ref.id}
-                        href={`#cite${ref.id}`}
-                        className="text-purple-300"
-                      >
-                        <sup>{ref.text}</sup>
-                      </a>
-                    ))}
-                  </span>
-                ) : (
-                  <a
-                    href={`#cite${item.reference.id}`}
-                    className="text-purple-300"
-                  >
-                    <sup>{item.reference.text}</sup>
-                  </a>
-                )}
-              </p>
-              <Meteors number={25} />
-            </div>
-          </div>
-        ))}
+
+      <div className="flex flex-col justify-center items-center mb-10">
+        <h4 className="text-start text-[30px] w-full mb-10 ">
+          Mandiant Report (2013)
+        </h4>
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7">
+          In 2013, Mandiant released a landmark report titled "APT1: Exposing
+          One of China&apos;s Cyber Espionage Units," which detailed the
+          group&apos;s extensive cyber espionage activities. The report
+          connected APT 1 to Unit 61398 of the People's Liberation Army (PLA),
+          providing evidence of a direct link to the Chinese military. This
+          report was pivotal in highlighting the scale and persistence of APT
+          1&apos;s operations across various industries globally.{" "}
+          <a href="#cite1" className="text-purple-300">
+            <sup>1</sup>
+          </a>
+          <br className="mb-5" />
+          <span className="font-bold text-[20px]">Scope of Operations: </span>
+          APT 1 conducted sustained campaigns against 141 organizations spanning
+          20 industries, maintaining access to victim networks for an average of
+          356 days, with the longest breach lasting 1,764 days.
+          <a href="#cite1" className="text-purple-300">
+            <sup>1</sup>
+          </a>
+          <br className="mb-2" />
+          <span className="font-bold text-[20px]">Significance: </span>
+          The Mandiant report was one of the first public disclosures linking a
+          cyber espionage group to a nation-state, emphasizing the importance of
+          transparency and accountability in cybersecurity.
+        </p>
+      </div>
+
+      <div className="flex flex-col justify-center items-center mb-10">
+        <h4 className="text-start text-[30px] w-full mb-10 ">
+          Other Reports and Analysis
+        </h4>
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 text-[12px font-thin]">
+          Cyware provides an overview of APT 1, highlighting its methods,
+          targets, and implications for global cybersecurity.
+          <a href="#cite2" className="text-purple-300">
+            <sup>2</sup>
+          </a>
+          <br className="mb-5" />
+          SecurityWeek discusses the anatomy of APTs, providing insights into
+          how groups like APT 1 operate and sustain long-term access to
+          compromised networks.
+          <a href="#cite6" className="text-purple-300">
+            <sup>6</sup>
+          </a>
+          <br className="mb-2" />
+          <span className="font-bold text-[20px]">MITRE ATT&CK </span>
+          offers a framework for understanding APT 1's tactics and techniques,
+          facilitating better defense strategies.{" "}
+          <a href="#cite7" className="text-purple-300">
+            <sup>7</sup>
+          </a>
+        </p>
       </div>
     </section>
   );

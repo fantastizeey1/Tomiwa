@@ -32,7 +32,7 @@ const IMPACT = () => {
               <h4 className="font-bold text-xl text-white mb-4 relative z-50">
                 {Data.title}
               </h4>
-              <p className="font-normal text-base text-white/70 mb-4 relative z-50">
+              <p className="font-normal text-base text-white mb-4 relative z-50">
                 {Data.description}
                 <a
                   href={`#cite${Data.reference.id}`}
