@@ -59,8 +59,8 @@ const FINDINGS = () => {
           </a>
           <br className="mb-2" />
           <span className="font-bold text-[20px]">MITRE ATT&CK </span>
-          offers a framework for understanding APT 1's tactics and techniques,
-          facilitating better defense strategies.{" "}
+          offers a framework for understanding APT 1&apos;s tactics and
+          techniques, facilitating better defense strategies.{" "}
           <a href="#cite7" className="text-purple-300">
             <sup>7</sup>
           </a>
