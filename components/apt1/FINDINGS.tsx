@@ -12,13 +12,14 @@ const FINDINGS = () => {
           Mandiant Report (2013)
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 font-light text-[13px]">
-          In 2013, Mandiant released a landmark report titled "APT1: Exposing
-          One of China&apos;s Cyber Espionage Units," which detailed the
-          group&apos;s extensive cyber espionage activities. The report
-          connected APT 1 to Unit 61398 of the People's Liberation Army (PLA),
-          providing evidence of a direct link to the Chinese military. This
-          report was pivotal in highlighting the scale and persistence of APT
-          1&apos;s operations across various industries globally.{" "}
+          In 2013, Mandiant released a landmark report titled &quot;APT1:
+          Exposing One of China&apos;s Cyber Espionage Units,&quot; which
+          detailed the group&apos;s extensive cyber espionage activities. The
+          report connected APT 1 to Unit 61398 of the People&apos;s Liberation
+          Army (PLA), providing evidence of a direct link to the Chinese
+          military. This report was pivotal in highlighting the scale and
+          persistence of APT 1&apos;s operations across various industries
+          globally.{" "}
           <a href="#cite1" className="text-purple-300">
             <sup>1</sup>
           </a>
@@ -58,8 +59,8 @@ const FINDINGS = () => {
           </a>
           <br className="mb-2" />
           <span className="font-bold text-[20px]">MITRE ATT&CK </span>
-          offers a framework for understanding APT 1's tactics and techniques,
-          facilitating better defense strategies.{" "}
+          offers a framework for understanding APT 1&apos;s tactics and
+          techniques, facilitating better defense strategies.{" "}
           <a href="#cite7" className="text-purple-300">
             <sup>7</sup>
           </a>
