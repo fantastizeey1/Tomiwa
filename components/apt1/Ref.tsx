@@ -14,8 +14,8 @@ const Ref = () => {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Mandiant. (2013, February 19). APT1: Exposing One of China's Cyber
-              Espionage Units.
+              Mandiant. (2013, February 19). APT1: Exposing One of China&apos;s
+              Cyber Espionage Units.
             </a>
           </p>
         </li>
@@ -110,8 +110,8 @@ const Ref = () => {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Mandiant. (2013, February 19). APT1: Exposing One of China's Cyber
-              Espionage Units.
+              Mandiant. (2013, February 19). APT1: Exposing One of China&apos;s
+              Cyber Espionage Units.
             </a>
           </p>
         </li>
