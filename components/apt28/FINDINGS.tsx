@@ -9,60 +9,50 @@ const FINDINGS = () => {
 
       <div className="flex flex-col justify-center items-center mb-10">
         <h4 className="text-start text-[30px] w-full mb-10 ">
-          Mandiant Report (2013)
+          National Cyber Security Centre (NSNC)
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 font-light text-[13px]">
-          In 2013, Mandiant released a landmark report titled &quot;APT1:
-          Exposing One of China&apos;s Cyber Espionage Units,&quot; which
-          detailed the group&apos;s extensive cyber espionage activities. The
-          report connected APT 1 to Unit 61398 of the People&apos;s Liberation
-          Army (PLA), providing evidence of a direct link to the Chinese
-          military. This report was pivotal in highlighting the scale and
-          persistence of APT 1&apos;s operations across various industries
-          globally.{" "}
-          <a href="#cite1" className="text-purple-300">
-            <sup>1</sup>
+          The UK National Cyber Security Centre (NCSC), the US National Security
+          Agency (NSA), US Cybersecurity and Infrastructure Security Agency
+          (CISA) and US Federal Bureau of Investigation (FBI) released a joint
+          advisory to provide details of tactics, techniques and procedures
+          (TTPs) associated with APT28&apos;s exploitation of Cisco routers in
+          2021.
+          <a href="#cite2" className="text-purple-300">
+            <sup>2</sup>
           </a>
-          <br className="mb-5" />
-          <span className="font-bold text-[20px]">Scope of Operations: </span>
-          APT 1 conducted sustained campaigns against 141 organizations spanning
-          20 industries, maintaining access to victim networks for an average of
-          356 days, with the longest breach lasting 1,764 days.
-          <a href="#cite1" className="text-purple-300">
-            <sup>1</sup>
+          APT28 exploited the vulnerability CVE-2017-6742 (Cisco Bug ID:
+          CSCve54313) [T1190]. This vulnerability was first announced by Cisco
+          on 29 June 2017, and patched software was made available.{" "}
+          <a href="#cite5" className="text-purple-300">
+            <sup>5</sup>
           </a>
-          <br className="mb-2" />
-          <span className="font-bold text-[20px]">Significance: </span>
-          The Mandiant report was one of the first public disclosures linking a
-          cyber espionage group to a nation-state, emphasizing the importance of
-          transparency and accountability in cybersecurity.
         </p>
       </div>
 
       <div className="flex flex-col justify-center items-center mb-10">
         <h4 className="text-start text-[30px] w-full mb-10 ">
-          Other Reports and Analysis
+          CrowdStrike Analysis
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 text-[13px] font-light">
-          <span className="font-bold text-[20px]">Cyware </span>provides an
-          overview of APT 1, highlighting its methods, targets, and implications
-          for global cybersecurity.
-          <a href="#cite2" className="text-purple-300">
-            <sup>2</sup>
+          CrowdStrike&apos;s detailed analysis linked APT28 to the breach of the
+          Democratic National Committee (DNC), identifying sophisticated malware
+          and techniques consistent with the group&apos;s operations.
+          <a href="#cite3" className="text-purple-300">
+            <sup>3</sup>
           </a>
-          <br className="mb-5" />
-          <span className="font-bold text-[20px]">SecurityWeek </span>discusses
-          the anatomy of APTs, providing insights into how groups like APT 1
-          operate and sustain long-term access to compromised networks.
+        </p>
+      </div>
+      <div className="flex flex-col justify-center items-center mb-10">
+        <h4 className="text-start text-[30px] w-full mb-10 ">
+          FireEye Investigation
+        </h4>
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 text-[13px] font-light">
+          FireEye&apos;s research provided evidence suggesting APT28&apos;s
+          involvement in various global cyberattacks, including efforts to
+          disrupt the Winter Olympics in Pyeongchang.
           <a href="#cite6" className="text-purple-300">
             <sup>6</sup>
-          </a>
-          <br className="mb-2" />
-          <span className="font-bold text-[20px]">MITRE ATT&CK </span>
-          offers a framework for understanding APT 1&apos;s tactics and
-          techniques, facilitating better defense strategies.{" "}
-          <a href="#cite7" className="text-purple-300">
-            <sup>7</sup>
           </a>
         </p>
       </div>

@@ -16,7 +16,14 @@ const HandB = () => {
           Intelligence Directorate). APT 28, which was first discovered around
           2007, has carried out several cyber operations against a variety of
           targets around the world, using advanced strategies and tools to
-          achieve its goals (Hultquist, 2018).
+          achieve its goals{" "}
+          <a href="#cite2" className="text-purple-300">
+            <sup>2</sup>
+          </a>
+          <a href="#cite8" className="text-purple-300">
+            <sup>8</sup>
+          </a>
+          .
         </p>
       </div>
 
@@ -25,11 +32,26 @@ const HandB = () => {
           Sponsorship and Motivation
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl">
-          APT28 is thought to be sponsored by the Russian government, as its
-          activities align with Russian strategic interests. The group targets
-          foreign governments, militaries, and security organizations, often
-          engaging in operations that support Russian political goals and
-          narratives. FireEye.
+          It is widely believed to be state-sponsored, operating under the
+          auspices of the Russian government
+          <a href="#cite2" className="text-purple-300">
+            <sup>2</sup>
+          </a>
+          . A 2018 indictment by the United States Special Counsel confirmed
+          these suspicions, identifying Fancy Bear as part of the GRU, a Russian
+          military unit specializing in state-sponsored cyberattacks and the
+          decryption of hacked data.
+          <a href="#cite4" className="text-purple-300">
+            <sup>4</sup>
+          </a>
+          In a more recent event, the headquarters of GRU Unit 26165 were
+          reportedly targeted by an alleged Ukrainian drone strike on July 24,
+          2023, which caused significant damage and collapsed one of the
+          buildings.
+          <a href="#cite3" className="text-purple-300">
+            <sup>3</sup>
+          </a>
+          .
         </p>
       </div>
 

@@ -34,8 +34,11 @@ const IMPACT = () => {
               </h4>
               <p className="font-normal text-base text-white mb-4 relative z-50">
                 {Data.description}
-                <a href={`#cite${Data.reference}`} className="text-purple-300">
-                  <sup>{Data.reference}</sup>
+                <a href={`#cite3`} className="text-purple-300">
+                  <sup>3</sup>
+                </a>
+                <a href={`#cite7`} className="text-purple-300">
+                  <sup>7</sup>
                 </a>
               </p>
               <Meteors number={15} />
