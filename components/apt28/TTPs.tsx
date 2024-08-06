@@ -21,14 +21,14 @@ const TTPs = () => {
       id: 3,
       title: "Custom Malware",
       description:
-        "Custom malware was a powerful tool for APT28. They deployed malware, tailored to evade traditional security measures. Their arsenal included X-Agent (CHOPSTICK) and X-Tunnel . X-Agenh was used as a versatile backdoor to maintain continuous remote access to compromised systems.{10} X-Tunnel was used as a network tunneling tool for secure data exfiltration. ",
+        "Custom malware was a powerful tool for APT28. They deployed malware, tailored to evade traditional security measures. Their arsenal included X-Agent (CHOPSTICK) and X-Tunnel . X-Agenh was used as a versatile backdoor to maintain continuous remote access to compromised systems. X-Tunnel was used as a network tunneling tool for secure data exfiltration. ",
       reference: { id: 8, text: "8" },
     },
     {
       id: 4,
       title: "Watering Hole Attacks",
       description:
-        "APT28 employed the watering hole attack, compromising websites frequented by their intended targets. They injected malicious scripts into the site’s code to deliver malware via drive-by downloads.",
+        "APT28 employed the watering hole attack, compromising websites frequented by their intended targets. They injected malicious scripts into the site&#39;s code to deliver malware via drive-by downloads.",
       reference: { id: 9, text: "9" },
     },
   ];
