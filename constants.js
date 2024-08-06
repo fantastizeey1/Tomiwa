@@ -103,7 +103,7 @@ export const atps = [
     name: "APT 28",
     title: "Fancy bear",
     img: "/danger.svg",
-    link: "atp28",
+    link: "apt28",
   },
   {
     id: "atps-3",
