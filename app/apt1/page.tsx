@@ -11,7 +11,6 @@ import MoreInfo from "@/components/apt1/MoreInfo";
 import Ref from "@/components/apt1/Ref";
 import TTPs from "@/components/apt1/TTPs";
 import { TracingBeam } from "@/components/ui/tracing-beam";
-import Link from "next/link";
 import React from "react";
 
 const Page = () => {
