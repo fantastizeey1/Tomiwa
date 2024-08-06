@@ -39,7 +39,7 @@ const HandB = () => {
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl">
           Notable operations include the targeting of European political
-          entities such as Germany's Christian Democratic Union and the
+          entities such as Germany&apos;s Christian Democratic Union and the
           Organization for Security and Cooperation in Europe, as well as the
           U.S. Democratic National Committee during the 2016 presidential
           election . APT28 also attacked the World Anti-Doping Agency, leaking
