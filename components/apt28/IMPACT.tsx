@@ -6,7 +6,7 @@ const Data = [
     id: 1,
     title: "Political Instability ",
     description:
-      "The activities of APT 28 had a wide range of effects on political stability, economic interests,and national security. Due to the group&#39;s actions, there were serious data breaches, sensitive information losses, and political process disruptions, including the hacking of the Democratic National Committee (DNC) during the 2016 US presidential election. The consequences affected the larger geopolitical scene since state-sponsored organizations like APT 28 can use cyber activities to inflame tensions and add to the complexity of the cyber threat landscape. {3} {7}",
+      "The activities of APT 28 had a wide range of effects on political stability, economic interests,and national security. Due to the group&#39;s actions, there were serious data breaches, sensitive information losses, and political process disruptions, including the hacking of the Democratic National Committee (DNC) during the 2016 US presidential election. The consequences affected the larger geopolitical scene since state-sponsored organizations like APT 28 can use cyber activities to inflame tensions and add to the complexity of the cyber threat landscape.",
     reference: "",
   },
   //   {
@@ -34,7 +34,7 @@ const IMPACT = () => {
               </h4>
               <p className="font-normal text-base text-white mb-4 relative z-50">
                 {Data.description}
-                <a href={`#cite3`} className="text-purple-300">
+                <a href={`#cite3`} className="text-purple-300 ml-3">
                   <sup>3</sup>
                 </a>
                 <a href={`#cite7`} className="text-purple-300">

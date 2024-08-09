@@ -15,7 +15,7 @@ const HandB = () => {
           espionage group attributed to the Iranian government. Active since at
           least 2013, APT33 is recognized as part of Iran&apos;s state-sponsored
           cyber operations.
-          <a href="#cite2" className="text-purple-300">
+          <a href="#cite2" className="text-purple-300 mr-2">
             <sup>2</sup>
           </a>
           <a href="#cite8" className="text-purple-300">
@@ -53,7 +53,7 @@ const HandB = () => {
           infrastructure. One of the notable incidents attributed to APT33 was
           the 2016 attack on Saudi Arabia&#39;s General Authority of Civil
           Aviation, where the Shamoon malware was used to wipe data and disrupt
-          operations.{" "}
+          operations.
           <a href="#cite1" className="text-purple-300">
             <sup>1</sup>
           </a>
@@ -62,7 +62,7 @@ const HandB = () => {
           involved in the aerospace and defense sectors. These attacks are
           believed to be aimed at acquiring technological and strategic
           information that could benefit Iran&#39;s domestic industries and
-          military capabilities. {7}
+          military capabilities.
           <a href="#cite7" className="text-purple-300">
             <sup>7</sup>
           </a>

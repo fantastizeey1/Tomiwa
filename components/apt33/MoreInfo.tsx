@@ -15,15 +15,19 @@ const MoreInfo = () => {
           <a href="#cite2" className="text-purple-300">
             <sup>2</sup>
           </a>
-          <br />
+        </p>
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl">
+          <br className="mb-3" />
           <span className="font-bold">Infrastructure Overlap:</span> The
           group&#39;s infrastructure, including command-and-control servers and
           domains, overlapped with those used by other threat actors,
           complicating the attribution process.
           <a href="#cite7" className="text-purple-300">
-            <sup></sup>
+            <sup>7</sup>
           </a>
-          <br />
+        </p>
+
+        <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl">
           <span className="font-bold">False Flag:</span> APT33, like other
           advanced threat actors employed false flag operations to mislead
           investigators and obscure their true origin.

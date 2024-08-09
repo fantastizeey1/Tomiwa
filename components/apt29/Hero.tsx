@@ -14,11 +14,11 @@ const Hero = () => {
           </Link>
         </header>
         <h1 className="text-start text-gradient text-[40px] w-full mb-5 -ml-10">
-          APT 28 (FANCY BEAR)
+          APT 29 (COZY BEAR)
         </h1>
         <div className="max-w-full w-[90%] flex justify-center items-center mx-auto max-h-[70vh]">
           <img
-            src="/28.png"
+            src="/29.png"
             alt="hackers Group"
             className="min-w-[500px] h-[70vh]"
           />

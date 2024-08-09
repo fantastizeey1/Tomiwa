@@ -24,7 +24,7 @@ const FINDINGS = () => {
           The group&#39;s strategic focus, which aims to improve domestic
           technology capabilities and gather intelligence on adversaries, is in
           line with Iran&#39;s geopolitical aspirations. Their actions reveal a
-          more comprehensive Iranian cyber campaign,
+          more comprehensive Iranian cyber campaign.
           <a href="#cite1" className="text-purple-300">
             <sup>1</sup>
           </a>

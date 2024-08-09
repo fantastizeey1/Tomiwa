@@ -7,7 +7,7 @@ const Cdm = () => {
       id: 1,
       title: "Enhanced Cyber Hygiene",
       content:
-        "Enhanced Cyber Hygiene: To reduce initial infection vectors, regularly patch and update systems, use multi-factor authentication, and train staff on phishing attacks",
+        "Enhanced Cyber Hygiene: To reduce initial infection vectors, regularly patch and update systems, use multi-factor authentication, and train staff on phishing attacks.",
       reference: "",
     },
     {
@@ -28,7 +28,7 @@ const Cdm = () => {
       id: 4,
       title: "Incident Response Planning",
       content:
-        "Incident Response Planning: Creating and testing incident response procedures on a regular basis guarantees that companies are ready to address and recover from APT 28 incursions (NIST, 2018).",
+        "Incident Response Planning: Creating and testing incident response procedures on a regular basis guarantees that companies are ready to address and recover from APT 28 incursions.",
       reference: "",
     },
     // {

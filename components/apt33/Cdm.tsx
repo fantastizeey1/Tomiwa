@@ -12,7 +12,7 @@ const Cdm = () => {
     },
     {
       id: 2,
-      title: "APatch Management",
+      title: "Patch Management",
       content:
         "Ensure timely patching of software and hardware vulnerabilities to reduce the attack surface.",
       reference: "",

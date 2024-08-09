@@ -5,7 +5,7 @@ const TTPs = () => {
   const data = [
     {
       id: 1,
-      title: "Phishing:",
+      title: "Phishing",
       description:
         "APT33 targeted workers with aviation-related employment with spear phishing emails. These emails featured links to malicious HTML application (.hta) files along with recruitment-themed baits. The job descriptions and links to genuine job advertisements on well-known employment websites that would be pertinent to the targeted persons were contained in the .hta files.",
       reference: { id: 7, text: "7" },
@@ -33,7 +33,7 @@ const TTPs = () => {
     },
     {
       id: 5,
-      title: "Custom Tools:",
+      title: "Custom Tools",
       description:
         "APT33 developed several custom tools. For instance, TurnedUp is a backdoor that can download and upload files, report information on the targeted system, and create a reverse shell. DropShot is a dropper that can drop and launch tools such as TurnedUp and ShapeShift. Powerton is a PowerShell-based implant that uses encrypted C2 and a full suite of persistence mechanisms.",
       reference: { id: 4, text: "4" },

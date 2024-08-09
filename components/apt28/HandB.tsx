@@ -10,20 +10,21 @@ const HandB = () => {
       <div className="flex flex-col justify-center items-center mb-10">
         <h4 className="text-start text-[30px] w-full mb-10 ">Origin</h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl">
-          Advanced Persistent Threat 28 (APT 28), also referred to aa Fancy
-          Bear, Sofacy, Sednit, and STRONTIUM, is a cyber espionage group
-          reported to be linked to the Russian government, notably the GRU (Main
-          Intelligence Directorate). APT 28, which was first discovered around
-          2007, has carried out several cyber operations against a variety of
-          targets around the world, using advanced strategies and tools to
-          achieve its goals{" "}
-          <a href="#cite2" className="text-purple-300">
+          APT28 is a well-known threat group attributed to Russia&#39;s General
+          Staff Main Intelligence Directorate (GRU) 85th Main Special Service
+          Center (GTsSS), specifically military unit 26165,
+          <a href="#cite3" className="text-purple-300">
+            <sup>3</sup>
+          </a>{" "}
+          and its origins have been traced back to Russia by various
+          intelligence agencies, including the UK&#39;s National Cyber Security
+          Centre (NCSC).
+          <a href="#cite2" className="text-purple-300 mr-3">
             <sup>2</sup>
           </a>
           <a href="#cite8" className="text-purple-300">
             <sup>8</sup>
           </a>
-          .
         </p>
       </div>
 
@@ -65,7 +66,7 @@ const HandB = () => {
           Organization for Security and Cooperation in Europe, as well as the
           U.S. Democratic National Committee during the 2016 presidential
           election . APT28 also attacked the World Anti-Doping Agency, leaking
-          sensitive information to influence perceptions around doping scandals
+          sensitive information to influence perceptions around doping scandals.
         </p>
       </div>
     </section>
