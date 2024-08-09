@@ -32,7 +32,6 @@ const Atp = () => {
           </Link>
         ))}
       </div>
-      <div>a</div>
     </section>
   );
 };

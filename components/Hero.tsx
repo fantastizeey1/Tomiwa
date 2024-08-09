@@ -41,7 +41,10 @@ const Hero = () => {
       <div
         className={` flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}
       >
-        <img
+        <Image
+          height={500}
+          width={500}
+          layout="responsive"
           src={"/hero.png"}
           alt={"hero"}
           className="inline-block w-full h-[500px] cursor-pointer"

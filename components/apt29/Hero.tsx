@@ -1,6 +1,7 @@
 import React from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import Link from "next/link";
+import Image from "next/image";
 const Hero = () => {
   return (
     <section className="h-[40rem] w-full rounded-md bg-[#19011f] relative flex flex-col items-start justify-start antialiased text-white  ">
@@ -17,9 +18,11 @@ const Hero = () => {
           APT 29 (COZY BEAR)
         </h1>
         <div className="max-w-full w-[90%] flex justify-center items-center mx-auto max-h-[70vh]">
-          <img
+          <Image
             src="/29.png"
             alt="hackers Group"
+            height={600}
+            width={600}
             className="min-w-[500px] h-[70vh]"
           />
         </div>

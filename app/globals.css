@@ -139,3 +139,8 @@
   background: #a766ad99;
   filter: blur(750px);
 }
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
