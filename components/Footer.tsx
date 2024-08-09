@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
@@ -16,7 +15,7 @@ const Footer = () => {
         </p>
         <a href="mailto:blessingajiboye23@gmail.com">
           <button className=" bg-[#511161] border border-[#ebb6f8] text-purple-300 rounded-2xl py-5 text-[20px] px-8">
-            Let's get in touch
+            Let&#39;s get in touch
           </button>
         </a>
       </div>
