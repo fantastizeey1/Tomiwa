@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <div className="max-w-full w-[90%] flex justify-center items-center mx-auto max-h-[70vh]">
           <Image
-            src="/29.png"
+            src="/new29.png"
             alt="hackers Group"
             height={600}
             width={600}

@@ -18,7 +18,7 @@ const Hero = () => {
         </h1>
         <div className="max-w-full w-[90%] flex justify-center items-center mx-auto max-h-[70vh]">
           <img
-            src="/28.png"
+            src="/new28.png"
             alt="hackers Group"
             className="min-w-[500px] h-[70vh]"
           />
