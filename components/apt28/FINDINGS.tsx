@@ -9,7 +9,7 @@ const FINDINGS = () => {
 
       <div className="flex flex-col justify-center items-center mb-10">
         <h4 className="text-start text-[30px] w-full mb-10 ">
-          National Cyber Security Centre (NSNC)
+          National Cyber Security Centre (NCSC)
         </h4>
         <p className=" shadow-lg shadow-purple-700 w-[70%] p-12 rounded-xl leading-7 font-light text-[13px]">
           The UK National Cyber Security Centre (NCSC), the US National Security
